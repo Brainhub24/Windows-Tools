@@ -29,9 +29,9 @@
 
 .NOTES
     Author: Brainhub24 - Jan Gebser
-	URL: www.brainhub24.com
-	Company: NETCORE MEDIA
-	Department: Research and Development @WSD
+    URL: www.brainhub24.com
+    Company: NETCORE MEDIA
+    Department: Research and Development @WSD
     Date: 09.11.2024
     Version: 0.3.2
 
