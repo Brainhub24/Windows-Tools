@@ -19,7 +19,7 @@
 
 .EXAMPLE
     .\AutoLoginManager.ps1 -Action configure -UserName "Trump2025" -Password "T3000"
-    Configures auto-login for "User1" with the specified password.
+    Configures auto-login for "Trump2025" with the specified password.
 
     .\AutoLoginManager.ps1 -Action check
     Checks the current auto-login configuration, if any.
