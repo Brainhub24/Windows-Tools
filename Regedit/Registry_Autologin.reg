@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+; This registry file enables automatic login for a specified user on Windows.
+; It modifies the Winlogon registry settings to allow automatic login with the provided credentials.
+; WARNING: Use caution when storing passwords in the registry, as it could pose a security risk.
+; @PARAM AutoAdminLogon: Enables (1) or disables (0) automatic login.
+; @PARAM DefaultUserName: Sets the username for automatic login.
+; @PARAM DefaultPassword: Sets the password for automatic login.
+; @PARAM DefaultDomainName: Specifies the domain for the login account (for domain-joined computers).
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"AutoAdminLogon"="1"           ; Enables automatic login (1 = enable, 0 = disable)
+"DefaultUserName"="Trump"       ; Username to use for automatic login
+"DefaultPassword"="Harris123"   ; Password to use for automatic login
+"DefaultDomainName"="united.states" ; Domain for the login account (useful for domain-joined machines)
